@@ -11,5 +11,6 @@ public class Prod {
         int b = sc.nextInt();
         int prod = calculateProd(a, b);
         System.out.println("The product is: " + prod);
+        sc.close();
     }
 }

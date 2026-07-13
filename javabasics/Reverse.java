@@ -10,5 +10,6 @@ public class Reverse {
             n = n / 10;
         }
         System.out.println("Reversed number: " + reverse);
+        sc.close();
     }
 }

@@ -5,5 +5,6 @@ public class Ternary{
         int number = sc.nextInt();
         String type = ((number %2) == 0) ? "Even" : "Odd";
         System.out.println(type);
+        sc.close();
     }
 }
